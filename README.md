@@ -1,1 +1,1 @@
-# jshandson10
+# JS handson 10 (DOM)
