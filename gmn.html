@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Guess My Number!</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <button class="btn again">Again!</button>
+      <p class="between">&nbspBetween <br />(1 and 99)</p>
+      <h1>Guess My Number!</h1>
+      <div class="number">?</div>
+    </header>
+    <main>
+      <section class="left">
+        <input type="number" class="guess" autofocus/>
+        <button class="btn check">Check!</button>
+      </section>
+      <section class="right">
+        <p class="message">Start Guessing...</p>
+        <p class="label-score">Score : <span class="score">0</span></p>
+        <p class="label-highscore">
+          Highscore : <span class="highscore">0</span>
+        </p>
+      </section>
+    </main>
+    <a href="index.html">Back</a>
+    <script src="game.js"></script>
+  </body>
+</html>
